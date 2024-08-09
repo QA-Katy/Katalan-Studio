@@ -19,24 +19,25 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
+'USEFUL - to write in the description on which page we are. It helps to navigate especially with bigger e2e tests'
 WebUI.navigateToUrl('http://www.automationpractice.pl/index.php')
 
-WebUI.click(findTestObject('Object Repository/Home Page/Button_Sign in'))
+'homepage'
+WebUI.click(findTestObject('Home Page/button_Sign in'))
 
-WebUI.setText(findTestObject('Object Repository/User Account Pages/Login Page/Registraction Section/input_Email address_create'), '123456@gmail.com')
+'login page'
+WebUI.setText(findTestObject('Object Repository/User Account Pages/Login Page/Registraction Section/input_Email address_create'), 
+    '12@gmail.com')
 
-WebUI.click(findTestObject('Object Repository/User Account Pages/Login Page/Registraction Section/button_Create an account'))
+WebUI.click(findTestObject('User Account Pages/Login Page/Registraction Section/button_Create an account'))
 
-WebUI.click(findTestObject('Object Repository/User Account Pages/Registration Page/020_Radio_Gender_Mrs'))
-
-WebUI.setText(findTestObject('Object Repository/User Account Pages/Registration Page/030_input_customer_First Name'), '1234')
-
-WebUI.setText(findTestObject('Object Repository/User Account Pages/Registration Page/040_input_customer_Last Name'), '5678')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/User Account Pages/Login Page/Login Section/input_Password'), 'aeHFOx8jV/A=')
-
+'registration page'
 WebUI.click(findTestObject('Object Repository/User Account Pages/Registration Page/button_Register'))
 
-WebUI.authenticate('', '', '', 0)
+'after filing all necessary data - my account page'
+WebUI.verifyElementVisible(findTestObject('User Account Pages/My account Page/h1_My account'))
 
 WebUI.closeBrowser()
+

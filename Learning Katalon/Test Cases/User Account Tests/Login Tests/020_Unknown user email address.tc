@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>020_Unknown user email address</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5c5fc50b-2106-443e-bc9b-3130a16a9b56</testCaseGuid>
+</TestCaseEntity>

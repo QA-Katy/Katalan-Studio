@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>050_Drop Down Lists_Fails</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>27d3ebff-1fbd-490a-99fb-f97702a10756</testCaseGuid>
+</TestCaseEntity>

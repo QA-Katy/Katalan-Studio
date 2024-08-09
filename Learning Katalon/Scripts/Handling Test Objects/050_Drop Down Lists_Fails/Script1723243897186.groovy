@@ -19,24 +19,31 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('http://www.automationpractice.pl/index.php')
 
-WebUI.click(findTestObject('Object Repository/Home Page/Button_Sign in'))
+WebUI.click(findTestObject('Home Page/button_Sign in'))
 
-WebUI.setText(findTestObject('Object Repository/User Account Pages/Login Page/Registraction Section/input_Email address_create'), '123456@gmail.com')
+'login page'
+WebUI.setText(findTestObject('Object Repository/User Account Pages/Login Page/Registraction Section/input_Email address_create'), 
+    '12@gmail.com')
 
+'After clicking we are on registration page'
 WebUI.click(findTestObject('Object Repository/User Account Pages/Login Page/Registraction Section/button_Create an account'))
 
-WebUI.click(findTestObject('Object Repository/User Account Pages/Registration Page/020_Radio_Gender_Mrs'))
+'Inspect DoB elements. Year of birth is a "value".\r\nIf you Select by Index, it\'ll be the position on the list - 1, 2, 3 etc.\r\nSelect by Label - 2019 - not a good idea, because if there is a space it will fail to select.'
+WebUI.selectOptionByLabel(findTestObject('User Account Pages/Registration Page/050_select_DoB_Day'), '2', false)
 
-WebUI.setText(findTestObject('Object Repository/User Account Pages/Registration Page/030_input_customer_First Name'), '1234')
+WebUI.selectOptionByValue(findTestObject('User Account Pages/Registration Page/060_select_DoB_Month'), '2', false)
 
-WebUI.setText(findTestObject('Object Repository/User Account Pages/Registration Page/040_input_customer_Last Name'), '5678')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/User Account Pages/Login Page/Login Section/input_Password'), 'aeHFOx8jV/A=')
+'first value'
+WebUI.selectOptionByIndex(findTestObject('User Account Pages/Registration Page/070_select_DoB_Year'), 2)
 
 WebUI.click(findTestObject('Object Repository/User Account Pages/Registration Page/button_Register'))
 
-WebUI.authenticate('', '', '', 0)
+'my account page'
+WebUI.verifyElementVisible(findTestObject('User Account Pages/My account Page/h1_My account'))
 
 WebUI.closeBrowser()
+

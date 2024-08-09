@@ -19,24 +19,19 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('http://www.automationpractice.pl/index.php')
 
+'Button / Anchor - so basically a link'
 WebUI.click(findTestObject('Object Repository/Home Page/Button_Sign in'))
 
-WebUI.setText(findTestObject('Object Repository/User Account Pages/Login Page/Registraction Section/input_Email address_create'), '123456@gmail.com')
+WebUI.setText(findTestObject('User Account Pages/Login Page/Registraction Section/input_Email address_create'), 'abc@def.ghi')
 
+'Real Button'
 WebUI.click(findTestObject('Object Repository/User Account Pages/Login Page/Registraction Section/button_Create an account'))
 
-WebUI.click(findTestObject('Object Repository/User Account Pages/Registration Page/020_Radio_Gender_Mrs'))
-
-WebUI.setText(findTestObject('Object Repository/User Account Pages/Registration Page/030_input_customer_First Name'), '1234')
-
-WebUI.setText(findTestObject('Object Repository/User Account Pages/Registration Page/040_input_customer_Last Name'), '5678')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/User Account Pages/Login Page/Login Section/input_Password'), 'aeHFOx8jV/A=')
-
-WebUI.click(findTestObject('Object Repository/User Account Pages/Registration Page/button_Register'))
-
-WebUI.authenticate('', '', '', 0)
+WebUI.delay(3)
 
 WebUI.closeBrowser()
+

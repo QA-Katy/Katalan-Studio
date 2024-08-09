@@ -23,11 +23,11 @@ WebUI.navigateToUrl('http://www.automationpractice.pl/index.php')
 
 WebUI.click(findTestObject('Object Repository/Home Page/Button_Sign in'))
 
-WebUI.setText(findTestObject('Object Repository/User Account Pages/Login Page/Login Section/input_Email address'), 'katarzyna.ma404@gmail.com')
+WebUI.setText(findTestObject('User Account Pages/Login Page/Registraction Section/input_Email address_create'), 'abc@def.ghi')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/User Account Pages/Login Page/Login Section/input_Password'), 'iGDxf8hSRT4=')
+WebUI.click(findTestObject('Object Repository/User Account Pages/Login Page/Registraction Section/button_Create an account'))
 
-WebUI.click(findTestObject('Object Repository/User Account Pages/Login Page/Login Section/button_Sign in'))
+WebUI.delay(3)
 
 WebUI.closeBrowser()
 
