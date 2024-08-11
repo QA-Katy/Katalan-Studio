@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>020_User Already Exists</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>12614175-d037-4c47-9891-ef9c20b0048d</testCaseGuid>
+</TestCaseEntity>

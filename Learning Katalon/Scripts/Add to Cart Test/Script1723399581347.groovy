@@ -21,24 +21,21 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://www.automationpractice.pl/index.php')
 
-WebUI.click(findTestObject('Object Repository/Home Page/Button_Sign in'))
+WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Object Repository/User Account Pages/Login Page/Registraction Section/input_Email address_create'), 
-    '123456@gmail.com')
+WebUI.click(findTestObject('Object Repository/Page_My Shop/a_Best Sellers'))
 
-WebUI.click(findTestObject('Object Repository/User Account Pages/Login Page/Registraction Section/button_Create an account'))
+WebUI.click(findTestObject('Page_My Shop/a_Blouse'))
 
-WebUI.click(findTestObject('Object Repository/User Account Pages/Registration Page/020_Radio_Gender_Mrs'))
+WebUI.click(findTestObject('Object Repository/Add to Cart/Page_Blouse - My Shop/a_Color_White'))
 
-WebUI.setText(findTestObject('Object Repository/User Account Pages/Registration Page/030_input_customer_First Name'), 'Abc')
+WebUI.click(findTestObject('Object Repository/Add to Cart/Page_Blouse - My Shop/button_Add to cart'))
 
-WebUI.setText(findTestObject('Object Repository/User Account Pages/Registration Page/040_input_customer_Last Name'), 'Xyz')
+WebUI.click(findTestObject('Object Repository/Add to Cart/Page_Blouse - My Shop/button_Proceed to checkout'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/User Account Pages/Login Page/Login Section/input_Password'), 'aeHFOx8jV/A=')
+WebUI.verifyElementText(findTestObject('Object Repository/Add to Cart/Page_Order - My Shop/span_Number of Products'), '1 product')
 
-WebUI.click(findTestObject('Object Repository/User Account Pages/Registration Page/button_Register'))
-
-WebUI.authenticate('', '', '', 0)
+WebUI.delay(3)
 
 WebUI.closeBrowser()
 

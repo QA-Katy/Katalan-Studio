@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h1_My account</name>
+   <name>ul_PopularBest Sellers</name>
    <tag></tag>
-   <elementGuidId>34b074e2-b196-4b3e-83cd-7c1ce3137d8b</elementGuidId>
+   <elementGuidId>ffe3493f-0412-48fe-9b4f-331f67a65bad</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>h1.page-heading</value>
+         <value>#home-page-tabs</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//h1</value>
+         <value>//ul[@id='home-page-tabs']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>h1</value>
+         <value>internal:text=&quot;PopularBest Sellers&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,79 +28,93 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h1</value>
-      <webElementGuid>a38f5c2f-b048-4306-bfd4-0bfe3d6323a2</webElementGuid>
+      <value>ul</value>
+      <webElementGuid>1e25d04f-e702-4775-9202-9c6d083e9db3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>home-page-tabs</value>
+      <webElementGuid>947afc30-8f0f-41c7-b806-3cd09ee327d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>page-heading</value>
-      <webElementGuid>e616f9a7-7bd5-4b25-ab50-6e9f26d94ee6</webElementGuid>
+      <value>nav nav-tabs clearfix</value>
+      <webElementGuid>e61c1434-3066-45e3-ba38-f6bf8df74d07</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>My account</value>
-      <webElementGuid>6c3d6f69-989c-4783-86d1-c7f9f8cbf74f</webElementGuid>
+      <value>
+			PopularBest Sellers
+		</value>
+      <webElementGuid>7eb92ae3-c80b-41dc-bcdb-9801f920ddf5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;center_column&quot;)/h1[@class=&quot;page-heading&quot;]</value>
-      <webElementGuid>1e7b023d-7a29-4eaf-9f73-3e07a43a50d8</webElementGuid>
+      <value>id(&quot;home-page-tabs&quot;)</value>
+      <webElementGuid>a6e70ed0-5331-4f19-bc95-eec26b2caf56</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//ul[@id='home-page-tabs']</value>
+      <webElementGuid>90cf2443-426c-482f-a93c-6a3864f8da96</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='center_column']/h1</value>
-      <webElementGuid>99ab74d3-5067-46d0-951b-53f8e2b0a97a</webElementGuid>
+      <value>//div[@id='center_column']/ul</value>
+      <webElementGuid>e9f4b2e7-4c18-4375-b820-8258c4caebd5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='>'])[1]/following::h1[1]</value>
-      <webElementGuid>23f75318-108b-4ec2-9ef7-9f246c2fe2bd</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/following::ul[2]</value>
+      <webElementGuid>7206397d-1f76-4dfd-972a-16ffe16e025b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add my first address'])[1]/preceding::h1[1]</value>
-      <webElementGuid>2bc27eb1-1dc8-4f2d-81bb-066905b2b577</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order history and details'])[1]/preceding::h1[1]</value>
-      <webElementGuid>033d5d77-9e53-4c0d-bf55-d723dd39b452</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Prev'])[1]/following::ul[2]</value>
+      <webElementGuid>e0cc492d-2766-45af-ba4f-854e5fabd26a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//h1</value>
-      <webElementGuid>80e4f8ea-7df7-443f-aa08-72c7c73e2800</webElementGuid>
+      <value>//div[2]/div/ul</value>
+      <webElementGuid>54214ac5-0c8a-408a-9f9e-becd08fcc625</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//h1[(text() = 'My account' or . = 'My account')]</value>
-      <webElementGuid>54b9f381-9e53-4898-857f-be7ac83c5189</webElementGuid>
+      <value>//ul[@id = 'home-page-tabs' and (text() = '
+			PopularBest Sellers
+		' or . = '
+			PopularBest Sellers
+		')]</value>
+      <webElementGuid>89290e2c-c80b-4cca-864a-af3100e6e1f2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

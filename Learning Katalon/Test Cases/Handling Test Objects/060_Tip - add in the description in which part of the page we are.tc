@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>060_Tip - add in the description in which part of the page we are</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d26ed9ce-a37c-44fd-a321-70f3cc1653af</testCaseGuid>
+</TestCaseEntity>

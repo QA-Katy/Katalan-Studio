@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h1_My account</name>
+   <name>button_Add to cart</name>
    <tag></tag>
-   <elementGuidId>34b074e2-b196-4b3e-83cd-7c1ce3137d8b</elementGuidId>
+   <elementGuidId>42c0c49b-e8d1-4894-812b-f9b8967689c2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>h1.page-heading</value>
+         <value>button[name=&quot;Submit&quot;] > span</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//h1</value>
+         <value>//p[@id='add_to_cart']/button/span</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>h1</value>
+         <value>internal:role=button[name=&quot; Add to cart&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,79 +28,79 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h1</value>
-      <webElementGuid>a38f5c2f-b048-4306-bfd4-0bfe3d6323a2</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>page-heading</value>
-      <webElementGuid>e616f9a7-7bd5-4b25-ab50-6e9f26d94ee6</webElementGuid>
+      <value>span</value>
+      <webElementGuid>574cc745-2fb3-4225-ac6f-fd0986b8a229</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>My account</value>
-      <webElementGuid>6c3d6f69-989c-4783-86d1-c7f9f8cbf74f</webElementGuid>
+      <value>Add to cart</value>
+      <webElementGuid>11e867ce-e60c-464d-8a35-e6a5f409985e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;center_column&quot;)/h1[@class=&quot;page-heading&quot;]</value>
-      <webElementGuid>1e7b023d-7a29-4eaf-9f73-3e07a43a50d8</webElementGuid>
+      <value>id(&quot;add_to_cart&quot;)/button[@class=&quot;exclusive&quot;]/span[1]</value>
+      <webElementGuid>897b6f27-a8ff-49af-87ce-63c49b8f2b83</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='center_column']/h1</value>
-      <webElementGuid>99ab74d3-5067-46d0-951b-53f8e2b0a97a</webElementGuid>
+      <value>//p[@id='add_to_cart']/button/span</value>
+      <webElementGuid>141286a8-b188-498f-a20a-0379563427ad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='>'])[1]/following::h1[1]</value>
-      <webElementGuid>23f75318-108b-4ec2-9ef7-9f246c2fe2bd</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='S'])[1]/following::span[1]</value>
+      <webElementGuid>9139de22-7511-4ed8-8c88-2defb6d9531f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add my first address'])[1]/preceding::h1[1]</value>
-      <webElementGuid>2bc27eb1-1dc8-4f2d-81bb-066905b2b577</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Data sheet'])[1]/preceding::span[1]</value>
+      <webElementGuid>5aa62d2d-08d7-4c1b-a9a2-7daa0339bac1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order history and details'])[1]/preceding::h1[1]</value>
-      <webElementGuid>033d5d77-9e53-4c0d-bf55-d723dd39b452</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Compositions'])[1]/preceding::span[1]</value>
+      <webElementGuid>7fea538b-73d7-4273-a1ab-9c595ccd2a58</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Add to cart']/parent::*</value>
+      <webElementGuid>23b09646-d05c-43d1-851e-0fb813cafe2d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//h1</value>
-      <webElementGuid>80e4f8ea-7df7-443f-aa08-72c7c73e2800</webElementGuid>
+      <value>//div[3]/div/p/button/span</value>
+      <webElementGuid>6a429c1e-a431-4242-a5dd-6ea553fa6579</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//h1[(text() = 'My account' or . = 'My account')]</value>
-      <webElementGuid>54b9f381-9e53-4898-857f-be7ac83c5189</webElementGuid>
+      <value>//span[(text() = 'Add to cart' or . = 'Add to cart')]</value>
+      <webElementGuid>7d6fadc2-5042-41ed-8dee-3e213543a6c2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

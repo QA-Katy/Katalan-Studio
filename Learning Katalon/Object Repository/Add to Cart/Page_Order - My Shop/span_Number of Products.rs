@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h1_My account</name>
+   <name>span_Number of Products</name>
    <tag></tag>
-   <elementGuidId>34b074e2-b196-4b3e-83cd-7c1ce3137d8b</elementGuidId>
+   <elementGuidId>f104b700-71a0-4954-8953-9269c7222a41</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>h1.page-heading</value>
+         <value>#summary_products_quantity</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//h1</value>
+         <value>//span[@id='summary_products_quantity']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>h1</value>
+         <value>internal:text=&quot;1 product&quot;s</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,79 +28,71 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h1</value>
-      <webElementGuid>a38f5c2f-b048-4306-bfd4-0bfe3d6323a2</webElementGuid>
+      <value>span</value>
+      <webElementGuid>9e3003d7-2647-4ccc-8b05-b017e3de0ec0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>id</name>
       <type>Main</type>
-      <value>page-heading</value>
-      <webElementGuid>e616f9a7-7bd5-4b25-ab50-6e9f26d94ee6</webElementGuid>
+      <value>summary_products_quantity</value>
+      <webElementGuid>854d7eab-3577-4f5b-98be-57b2421d7ef8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>My account</value>
-      <webElementGuid>6c3d6f69-989c-4783-86d1-c7f9f8cbf74f</webElementGuid>
+      <value>1 product</value>
+      <webElementGuid>11e16115-1dca-4cdc-bf76-178ec991c1d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;center_column&quot;)/h1[@class=&quot;page-heading&quot;]</value>
-      <webElementGuid>1e7b023d-7a29-4eaf-9f73-3e07a43a50d8</webElementGuid>
+      <value>id(&quot;summary_products_quantity&quot;)</value>
+      <webElementGuid>b8a54622-714f-4f96-9b19-2f6ca5dcc8c9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//span[@id='summary_products_quantity']</value>
+      <webElementGuid>0a1dab10-c0f4-4620-9930-795dcd1968d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='center_column']/h1</value>
-      <webElementGuid>99ab74d3-5067-46d0-951b-53f8e2b0a97a</webElementGuid>
+      <value>//h1[@id='cart_title']/span/span</value>
+      <webElementGuid>2e0a6a47-6950-4d75-9773-bb798b17332f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='>'])[1]/following::h1[1]</value>
-      <webElementGuid>23f75318-108b-4ec2-9ef7-9f246c2fe2bd</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add my first address'])[1]/preceding::h1[1]</value>
-      <webElementGuid>2bc27eb1-1dc8-4f2d-81bb-066905b2b577</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order history and details'])[1]/preceding::h1[1]</value>
-      <webElementGuid>033d5d77-9e53-4c0d-bf55-d723dd39b452</webElementGuid>
+      <value>//*/text()[normalize-space(.)='1 product']/parent::*</value>
+      <webElementGuid>59491126-6823-4079-bd70-9baa802ee8ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//h1</value>
-      <webElementGuid>80e4f8ea-7df7-443f-aa08-72c7c73e2800</webElementGuid>
+      <value>//h1/span/span</value>
+      <webElementGuid>c0be498f-0dd4-4cb7-9b7d-e734fdadd0fd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//h1[(text() = 'My account' or . = 'My account')]</value>
-      <webElementGuid>54b9f381-9e53-4898-857f-be7ac83c5189</webElementGuid>
+      <value>//span[@id = 'summary_products_quantity' and (text() = '1 product' or . = '1 product')]</value>
+      <webElementGuid>5b7ff959-dfda-461a-8094-1c7a68954559</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
