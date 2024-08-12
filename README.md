@@ -32,7 +32,7 @@ Alerts Explained:<br />
 ![image](https://github.com/user-attachments/assets/67370fe5-e78a-4139-aad1-8bdaa03ddd10)<br /><br />
 Test cases can be organized in test suits and run together:<br />
 ![image](https://github.com/user-attachments/assets/0c5f56f7-36a7-4e85-8318-c4dd6b9fa604)<br /><br />
-Written Test Case in Script Mode:<br />
+Test Case written in Script Mode:<br />
 ![image](https://github.com/user-attachments/assets/c25003db-6179-4338-833b-92f1c9772614)<br /><br />
 The above Test Case visible in Manual Mode:<br />
 ![image](https://github.com/user-attachments/assets/d58cd2b6-6ac9-4ba7-8119-6ff52c23f124)<br /><br />
