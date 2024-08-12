@@ -23,7 +23,8 @@ Internal database:<br />
 External database imported from Excel File:<br />
 ![image](https://github.com/user-attachments/assets/9a4532b7-71d2-4f79-a15e-ef255a0d4e24)<br /><br />
 Injecting Excel Data into Test Suits:<br />
-![image](https://github.com/user-attachments/assets/d06a256a-649d-44d5-96f1-10ad72c1cd23)<br /><br />
+![image](https://github.com/user-attachments/assets/767d8f22-94b6-4655-8a92-7bd96b106845)
+<br /><br />
 Sign in with Text Boxes explained:<br />
 ![image](https://github.com/user-attachments/assets/03e1dd22-bd8d-48e2-b326-3d580819b941)<br /><br />
 Create an account with Buttons explained:<br />
